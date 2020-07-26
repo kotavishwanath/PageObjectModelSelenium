@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test - Suite]">
+  <test thread-count="5" name="First Test(failed)">
+    <classes>
+      <class name="com.favebook.tests.FBLogInOutTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="tearDownTest"/>
+          <include name="init"/>
+          <include name="bc"/>
+          <include name="ac"/>
+        </methods>
+      </class> <!-- com.favebook.tests.FBLogInOutTest -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [Test - Suite] -->
